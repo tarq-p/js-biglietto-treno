@@ -4,7 +4,7 @@
 //definire la condizione di sconto applicato in base agli anni possedduti
 //visione attreverso la consoleweb
 
-var distanza = prompt('Quanti km devi percorrere?')
+var distanza = prompt('Quanti km percorrerai?')
 console.log(distanza);
 var anni = prompt('Quanti anni hai?')
 console.log(anni);
