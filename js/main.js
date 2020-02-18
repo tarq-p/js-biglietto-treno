@@ -5,9 +5,9 @@
 //visione attreverso la consoleweb
 
 var distanza = prompt('Quanti km percorrerai?')
-console.log(distanza);
+// console.log(distanza);
 var anni = prompt('Quanti anni hai?')
-console.log(anni);
+// console.log(anni);
 
 var prezzo1km = 0.21;
 // console.log(prezzo1km);
@@ -21,7 +21,7 @@ var scontoOver = costoTotale / 100 * 40;
 // console.log(scontoOver);
 
 if (anni<18) {
-    console.log('Hai uno sconto del 20% da applicare al prezzo del biglietto');
+    console.log('Hai uno sconto del 20% quindi pagherai € meno ' + scontoUnder);
 } else if (anni>=65) {
-    console.log('Hai uno sconto del 40% da applicare al prezzo del biglietto');
+    console.log('Hai uno sconto del 40% quindi pagherai € meno ' + scontoOver);
 }
